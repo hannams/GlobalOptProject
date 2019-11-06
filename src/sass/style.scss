@@ -10,8 +10,16 @@
 	width: 1140px;
 	margin: 0 auto;
 }
+.subline{
+	width: 148px;
+	height: 1px;
+	background-color: $main-color;
+	margin: 0 auto;
+	margin-top: 20px;
+}
 
 @import 'blocks/promo';
 @import 'blocks/buttons';
 @import 'blocks/titles';
 @import 'blocks/advantages';
+@import 'blocks/offers';

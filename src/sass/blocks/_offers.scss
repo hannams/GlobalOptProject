@@ -1,0 +1,38 @@
+.offers {
+    min-height: 619px;
+    padding: 51px 0 57px 0;
+    &__text{
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 17px;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 37px;
+    }
+    &__item{
+        width: 360px;
+        img{
+            width: 100%;
+        }
+        &-title{
+            color: $main-color;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 28px;
+        }
+        &-descr{
+            text-align: justify;
+            color: #3a3a3a;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+        }
+    }
+
+
+}
