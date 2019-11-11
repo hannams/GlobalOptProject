@@ -5,4 +5,23 @@
     line-height: 26px;
     text-transform: uppercase;
     text-align: center;
+    &_white{
+        color: #ffffff;
+        font-size: 26px;
+        text-transform: none;
+        margin-top: 20px;
+    }
+}
+.subtitle{
+    color: #2e2e2e;
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 17px;
+    &_white{
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        margin-top: 22px;
+    }
 }

@@ -28,12 +28,24 @@
                 &:last-child {
                     border: none;
                 }
+                &:hover{
+                    &:after{
+                        content: '';
+                        position: absolute;
+                        width: 80%;
+                        height: 1px;
+                        background-color: $main-color;
+                        left: 10%;
+                        bottom: 0;
+                    }
+                }
             }
             &-link {
                 color: #ffffff;
                 font-size: 15px;
                 font-weight: 400;
                 &:hover {
+                    text-decoration: none;
                     color: $main-color;
                 }
             }

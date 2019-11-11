@@ -1,13 +1,7 @@
 .offers {
     min-height: 619px;
     padding: 51px 0 57px 0;
-    &__text{
-        color: #2e2e2e;
-        font-size: 21px;
-        font-weight: 300;
-        text-align: center;
-        margin-top: 17px;
-    }
+
     &__wrapper{
         display: flex;
         justify-content: space-between;

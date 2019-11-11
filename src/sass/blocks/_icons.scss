@@ -1,0 +1,17 @@
+.icon{
+    width: 102px;
+    height: 102px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_form{
+        border: 1px solid $main-color;
+        position: absolute;
+        left: calc(50% - 51px);
+        top: -51px;
+        background-color: #fff;
+    }
+}
